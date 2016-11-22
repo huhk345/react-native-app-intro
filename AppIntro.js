@@ -21,7 +21,7 @@ const windowsHeight = Dimensions.get('window').height;
 
 const defaulStyles = {
   header: {
-    flex: 0.5,
+    flex: 0,
     justifyContent: 'center',
     alignItems: 'center',
   },
@@ -30,7 +30,7 @@ const defaulStyles = {
     height: 150,
   },
   info: {
-    flex: 0.5,
+    flex: 1,
     alignItems: 'center',
     padding: 30,
   },
@@ -236,6 +236,7 @@ export default class AppIntro extends Component {
     imgStyle,
     backgroundColor,
     fontColor,
+    detailFontColor,
     level,
   }) => {
     const AnimatedStyle1 = this.getTransform(index, 10, level);
@@ -252,7 +253,7 @@ export default class AppIntro extends Component {
             <Text style={[this.styles.title, { color: fontColor }]}>{title}</Text>
           </Animated.View>
           <Animated.View style={AnimatedStyle3.transform}>
-            <Text style={[this.styles.description, { color: fontColor }]}>{description}</Text>
+            <Text style={[this.styles.description, { color: detailFontColor }]}>{description}</Text>
           </Animated.View>
         </View>
       </View>
