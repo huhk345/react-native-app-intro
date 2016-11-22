@@ -43,16 +43,16 @@ const defaulStyles = {
   },
   title: {
     color: '#fff',
-    fontSize: 30,
+    fontSize: 25,
     paddingBottom: 20,
   },
   description: {
     color: '#fff',
-    fontSize: 20,
+    fontSize: 16,
   },
   controllText: {
     color: '#fff',
-    fontSize: 22,
+    fontSize: 20,
     fontWeight: 'bold',
   },
   dotStyle: {
