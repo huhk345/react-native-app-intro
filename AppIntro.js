@@ -30,9 +30,10 @@ const defaulStyles = {
     height: 150,
   },
   info: {
-    flex: 1,
+    flex: 0,
     alignItems: 'center',
     padding: 30,
+    marginBottom:30,
   },
   slide: {
     flex: 1,
